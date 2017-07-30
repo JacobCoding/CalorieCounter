@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="buttonPro" layoutX="421.0" layoutY="308.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="129.0" text="Process">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="TOP_CENTER" layoutX="22.0" layoutY="30.0" prefHeight="27.0" prefWidth="74.0" text="Gender">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textAge" layoutX="27.0" layoutY="305.0" prefHeight="25.0" prefWidth="91.0" />
+      <TextField fx:id="textWeight" layoutX="26.0" layoutY="158.0" prefHeight="25.0" prefWidth="91.0" />
+      <Label layoutX="28.0" layoutY="131.0" prefHeight="27.0" prefWidth="107.0" text="Weight (kg)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="10.0" layoutY="209.0" prefHeight="27.0" prefWidth="107.0" text="Height (cm)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textHeight" layoutX="26.0" layoutY="236.0" prefHeight="25.0" prefWidth="91.0" />
+      <Label alignment="TOP_CENTER" layoutX="26.0" layoutY="278.0" prefHeight="27.0" prefWidth="74.0" text="Age">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="157.0" layoutY="30.0" prefHeight="27.0" prefWidth="386.0" text="Activity level">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="171.0" layoutY="131.0" prefHeight="27.0" prefWidth="129.0" text="Target">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="171.0" layoutY="236.0" prefHeight="27.0" prefWidth="178.0" text="Daily calories needed">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="genderComboBox" layoutX="18.0" layoutY="64.0" prefHeight="25.0" prefWidth="82.0" />
+      <ComboBox fx:id="targetComboBox" layoutX="161.0" layoutY="171.0" prefWidth="150.0" />
+      <ComboBox fx:id="dailyActivityComboBox" layoutX="153.0" layoutY="64.0" prefHeight="25.0" prefWidth="393.0" />
+      <Label alignment="TOP_CENTER" layoutX="378.0" layoutY="136.0" prefHeight="27.0" prefWidth="107.0" text="Body type">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="bodyTypeComboBox" layoutX="357.0" layoutY="171.0" prefWidth="150.0" />
+      <Label fx:id="labelCountedCalories" alignment="TOP_CENTER" layoutX="178.0" layoutY="267.0" prefHeight="27.0" prefWidth="166.0" text="kcal">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
